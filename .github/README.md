@@ -11,12 +11,15 @@
     <thead>
       <tr>
         <th align="center">
+          <img width="20" height="1">
           <p><small>#</small></p>
         </th>
         <th align="center">
+          <img width="300" height="1">
           <p><small>PROJECT NAME</small></p>
         </th>
         <th align="center">
+          <img width="200" height="1">
           <p><small>PREVIEW</small></p>
         </th>
       </tr>
@@ -29,7 +32,7 @@
       </tr>
       <tr>
         <td><strong>28</strong></td>
-        <td><a href="https://github.com/brunoabunai/bora-codar/tree/main/27.%20Error-Page"><strong>Error page 404</strong></a></td>
+        <td><a href="https://github.com/brunoabunai/bora-codar/tree/main/27.%20Error-Page"><strong>IA Platform</strong></a></td>
         <td align="center"><img width="250px" src="./preview/28.png" alt="project number picture 28"></td>
       </tr>
       <tr>
