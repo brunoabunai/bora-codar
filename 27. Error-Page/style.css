@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+:root {
+  --gray-01: #d6d6f2;
+  --gray-02: #e2e2f5;
+  --purple: #bf7bfb;
+  --blue-light: #212187;
+  --blue: #151557;
+  --blue-dark: #000013;
+}
+
+body {
+  background: url(./assets/Background.jpg) no-repeat center top/cover;
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+  color: var(--gray-01);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  justify-content: space-around;
+  /* justify-content: space-evenly; */
+  margin: 0 auto;
+
+  width: 100%;
+  max-width: 1216px;
+  height: 100vh;
+}
+
+/* Text edit*/
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  width: 100%;
+  max-width: 380px;
+}
+
+.text .info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.text .info h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 120%;
+  /* line-height: 48px; */
+}
+
+.text .info span {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 140%;
+  /* line-height: 28px; */
+}
+
+/* Actions edit */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.actions a {
+  padding: 12px 24px;
+  border-radius: 16px;
+  color: var(--gray-02);
+  background: var(--blue);
+
+  text-decoration: none;
+  font-size: 0.87rem;
+  font-weight: 500;
+  line-height: 140%;
+  text-transform: uppercase;
+  transition: background 0.2s;
+}
+
+.actions a:hover {
+  background: var(--blue-light);
+}
+
+/* Image */
+.image {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  /* box-shadow: 0px 0px 196px 0px rgba(112, 0, 255, 0.7); */
+}
+
+.image svg {
+  width: 80px;
+  height: 105px;
+}
+
+.image iframe {
+  border: none;
+  width: 230px;
+  height: 230px;
+  /* background: lightgray 50% / cover no-repeat; */
+}
+
+@media (max-width: 780px) {
+  .container .text {
+    position: relative;
+    z-index: 100;
+  }
+
+  .container .text .actions {
+    justify-content: center;
+  }
+
+  .container .text .actions a {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .container .image {
+    opacity: 45%;
+    position: absolute;
+    z-index: 1;
+  }
+}
