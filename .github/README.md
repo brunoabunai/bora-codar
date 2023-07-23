@@ -32,14 +32,22 @@
       </tr>
       <tr>
         <td><strong>28</strong></td>
-        <td><a href="https://github.com/brunoabunai/bora-codar/tree/main/27.%20Error-Page"><strong>IA Platform</strong></a></td>
+        <td><a href="https://github.com/brunoabunai/bora-codar/tree/main/28.%20Error-Page"><strong>IA Platform</strong></a></td>
         <td align="center"><img width="250px" src="./preview/28.png" alt="project number picture 28"></td>
       </tr>
       <tr>
         <td><strong>29</strong></td>
-        <td><a href="https://github.com/brunoabunai/bora-codar/tree/main/27.%20Error-Page"><strong>Error page 404</strong></a></td>
+        <td><a href="https://github.com/brunoabunai/bora-codar/tree/main/29.%20Error-Page"><strong>Error page 404</strong></a></td>
         <td align="center"><img width="250px" src="./preview/29.png" alt="project number picture 29"></td>
       </tr>
     </tbody>
   </table>
 </p>
+
+<!--
+| <small>#</small> |                                             <mall>PROJECT NAME<small>                                              |                           <small>PREVIEW</small>                           |
+| :--------------: | :----------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------: |
+|       `27`       | <a href="https://github.com/brunoabunai/bora-codar/tree/main/27.%20Error-Page"><strong>Error page 404</strong></a> | <img width="250px" src="./preview/27.png" alt="project number picture 27"> |
+|       `28`       |  <a href="https://github.com/brunoabunai/bora-codar/tree/main/28.%20Error-Page"><strong>IA Platform</strong></a>   | <img width="250px" src="./preview/28.png" alt="project number picture 28"> |
+|       `29`       | <a href="https://github.com/brunoabunai/bora-codar/tree/main/29.%20Error-Page"><strong>Error page 404</strong></a> | <img width="250px" src="./preview/29.png" alt="project number picture 29"> |
+-->
