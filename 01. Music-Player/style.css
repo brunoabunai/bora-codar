@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #0f0d13;
+  color: #e1e1e6;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  /* 656 x 498 */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem;
+}
+
+.container main {
+  width: 100%;
+  max-width: 16.7rem;
+  height: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2.4rem;
+  gap: 1.8rem;
+
+  border-radius: 16px;
+  background: #2a2141;
+}
+
+.container main img {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 6px;
+}
+
+.container main .title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.container main .title h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.container main .title span {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.controllers {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.controllers i {
+  font-size: 1.8rem;
+}
+
+main section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+section .time {
+  width: 100%;
+  height: 0.4rem;
+  background: #e1e1e067;
+  position: relative;
+  border-radius: 16px;
+}
+
+section .time .percentage {
+  width: 85%;
+  background: #e1e1e6;
+  height: 0.4rem;
+  position: absolute;
+  border-radius: 16px;
+}
+
+section .numbers {
+  display: flex;
+  justify-content: space-between;
+}
+
+section .numbers span {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 160%;
+  color: #c4c4cc;
+}
+
+/* ---------------------- */
+aside {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+aside section {
+  background: #2a2141;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  padding: 1.8rem;
+  border-radius: 16px;
+}
+
+aside section header {
+  display: flex;
+  gap: 1.8rem;
+}
+
+aside section header img {
+  width: 5.25rem;
+  height: 5.25rem;
+  border-radius: 6px;
+}
+
+aside section header .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+aside section header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+aside section header span {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+aside section .controllers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 3.15rem;
+}
+
+aside section section {
+  padding: 0;
+}
