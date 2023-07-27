@@ -3,12 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Página 404</title>
+    <title>After and Before IA</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
-      <div class="container"></div>
+    <main class="image-container">
+      <picture class="after-image">
+        <img src="./assets/image.jpg" alt="image after IA" />
+      </picture>
+      <picture class="before-image">
+        <img src="./assets/pixelated-image.jpg" alt="image before IA" />
+      </picture>
+
+      <input type="range" id="slider" min="0" max="100" value="50" />
+      <div class="dragger">
+        <img src="./assets/dragger.svg" alt="dragger" />
+      </div>
     </main>
+
+    <script src="./script.js" defer></script>
   </body>
 </html>
